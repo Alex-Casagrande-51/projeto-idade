@@ -25,6 +25,9 @@ function verificar() {
             } else if (idade < 25) {
                 //jovem
                 img.setAttribute('src', 'foto/jovem-mas.png')
+            } else if (idade < 32) {
+                //meia vida
+                img.setAttribute('src', 'foto/25-30mas.png')
             } else if (idade < 45) {
                 //adulto
                 img.setAttribute('src', 'foto/adulto-mas.png')
@@ -49,6 +52,9 @@ function verificar() {
             } else if (idade < 25) {
                 //jovem
                 img.setAttribute('src', 'foto/jovem-fem.png')
+            } else if (idade < 32) {
+                //meia vida
+                img.setAttribute('src', 'foto/25-30fem.png')  
             } else if (idade < 45) {
                 //Adulto
                 img.setAttribute('src', 'foto/adulto-fem.png')
